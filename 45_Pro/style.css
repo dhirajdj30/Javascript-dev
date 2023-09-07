@@ -1,0 +1,13 @@
+.yellow{
+    background-color: yellow;
+    color: aliceblue;
+}
+
+.red{
+    background-color: red;
+    color: aliceblue;
+}
+
+.text-dark{
+    color: black !important;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+button{
+    /* background-color: aliceblue; */
+    /* background: none; */
+    color: #ffffffff;
+    border: 0;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: 200ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+#btn1{
+    background-color:rgb(12,110,253);
+}
+#btn2{
+    background-color:rgb(108,117,125);
+}
+#btn3{
+    background-color:rgb(25,135,84);
+}
+#btn4{
+    background-color:rgb(220,53,69);
+}
+
+
+.bookmarks{
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.links{
+    /* margin: 20px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.bulb{
+    background: yellow;
+}
+
+.bulbcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 341px;
+    width: 341px;
+    text-align: center;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: fantasy;
+    /* border: 2px solid yellow; */
+    border-radius: 200px;
+    /* background: yellow; */
+}

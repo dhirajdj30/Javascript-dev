@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);;
+}
+.gradient-custom {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    background: #6a11cb;
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+    background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+}
+
+.logo{
+    margin-left: 50px;
+    size: 100%;
+}
+
+.nav-links{
+    display: flex;
+    color: white;
+    margin-right: 100px;
+}
+.nav-links li{
+    margin-left: 25px;
+    list-style: none;
+    transition: 200ms ease-in-out;
+    margin-top: 0;
+}
+.nav-links li a{
+    
+    transition: 200;
+}
+.nav-links li:hover{
+    color: #6a11cb;
+}

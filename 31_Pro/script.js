@@ -1,0 +1,1 @@
+alert(document.getElementsByClassName("myH2").style.color);
