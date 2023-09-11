@@ -1,0 +1,3 @@
+
+sessionStorage.setItem("name","Dhiraj")
+

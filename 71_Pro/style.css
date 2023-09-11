@@ -1,0 +1,58 @@
+
+.navbar{
+    background-color: #fff;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+}
+.logo-cl img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.row{
+    gap: 50px;
+    justify-content: center;
+}
+
+.hero {
+    background-image: url('hero-image.jpg'); /* Replace 'hero-image.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+.navbar-nav{
+    margin-left: 75%;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand:hover{
+   
+}
+
+.nav-link{
+    margin-right: 10px;
+    font-size: 1.3rem;
+    transition: 100ms ease-in-out;
+}
+
+.nav-link:hover{
+    transform: scale(1.11);
+
+}
